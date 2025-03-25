@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex-direction: column; /* Ajuste para telas menores */
+    
 }
 
 #presentation {
@@ -111,8 +111,7 @@ button {
 .article-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; /* Para se ajustar em telas menores */
-    margin-bottom: 3rem;
+    
 }
 
 .article-container:nth-child(even) {
